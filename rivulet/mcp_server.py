@@ -89,7 +89,7 @@ def _post_slack(message: str) -> None:
         "structured protocol. Returns an ExperimentPlan JSON with mode, cell types, drug "
         "concentrations, timing, and estimated throughput. Input: one plain-language sentence "
         "describing the biological goal. Does NOT run the experiment — use run_experiment for "
-        "that (currently stub only, contact hello@rivulet.io)."
+        "that (currently stub only, contact asmay@rivulet.bio)."
     )
 )
 async def design_experiment(prompt: str) -> dict:
@@ -193,7 +193,7 @@ async def run_experiment(plan: dict, chip_id: str = "unknown") -> dict:
     if not _DEMO_URL:
         raise NotImplementedError(
             "Hardware execution requires a deployed Rivulet chip. "
-            "Contact hello@rivulet.io to request early access."
+            "Contact asmay@rivulet.bio to request early access."
         )
 
     headers = {}

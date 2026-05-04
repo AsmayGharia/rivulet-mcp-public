@@ -210,7 +210,7 @@ async def test_run_experiment_stub():
         srv._DEMO_URL = ""
         with pytest.raises(NotImplementedError) as exc_info:
             await run_experiment(plan=_drug_screen_plan().model_dump(), chip_id="chip-001")
-        assert "hello@rivulet.io" in str(exc_info.value)
+        assert "asmay@rivulet.bio" in str(exc_info.value)
         assert "Hardware execution" in str(exc_info.value)
     finally:
         srv._DEMO_URL = original

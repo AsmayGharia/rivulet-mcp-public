@@ -202,4 +202,4 @@ For Claude Desktop, add `"RIVULET_DEBUG": "1"` to the `env` block in `claude_des
 
 [Open an issue](https://github.com/AsmayGharia/rivulet-mcp/issues) for bugs and feature requests.
 
-For hardware inquiries: [hello@rivulet.io](mailto:hello@rivulet.io)
+For hardware inquiries: [asmay@rivulet.bio](mailto:asmay@rivulet.bio)
