@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.0.1] - 2026-05-04
+
+### Changed
+- Updated contact email to asmay@rivulet.bio across all user-facing surfaces
+
 ## 0.1.0 — Initial release
 
 - `design_experiment`: NL → ExperimentPlan via Claude
