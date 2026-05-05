@@ -1,4 +1,4 @@
-# rivulet-mcp
+# rivulet-mcp-public
 
 Rivulet is a digital microfluidics platform for high-throughput biological experiments. This MCP server lets AI agents design DEP protocols programmatically.
 
