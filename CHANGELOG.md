@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.0.2] - 2026-05-05
+
+### Fixed
+- README title corrected to `rivulet-mcp-public` (was `rivulet-mcp`, the private repo name)
+
 ## [0.1.0.1] - 2026-05-04
 
 ### Changed
